@@ -2,6 +2,13 @@
 
 .ul-default-nav {
   list-style-type: none;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .flex-fr {
@@ -31,6 +38,17 @@
   border-radius: 5px;
 }
 
+.nav-ul-li {
+  margin: 0;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: thin;
+  border-color: #696969;
+  width: 12.5%;
+  height: 100%;
+  flex: 1fr; 
+}
+
 .header-text {
   color: #fff;
   margin-top: 0;
@@ -53,3 +71,14 @@
   font-size: 1.5em;
 }
 
+/* general fixes */
+
+/* this rules are applied last */
+
+.border-left-none {
+  border-left-style: none;
+}
+
+.border-right-none {
+  border-right-style: none;
+}

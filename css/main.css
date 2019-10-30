@@ -1,28 +1,27 @@
 /* General classes */
 
 .ul-default-nav {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 /* Header */
 
 .hero-header {
-	width: 100vw;
-	height: 538px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-image: url(../assets/img/hero_back.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-	background-position: center 101%;
+  width: 100vw;
+  height: 538px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/img/hero_back.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center 101%;
 }
 
 .nav-bar {
-	display: flex;
-	height: 30px;
-	width: 932.697px;
-	background-color: #333;
-	margin: auto;
+  display: flex;
+  height: 30px;
+  width: 932.697px;
+  background-color: #333;
+  margin: auto;
 }
-

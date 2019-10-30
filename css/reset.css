@@ -13,7 +13,7 @@ html {
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 
 /* Sections
@@ -389,5 +389,5 @@ iframe {
 
 a:link {
   text-decoration: none;
-  color: #000;
+  color: #f0f0f0;
 }

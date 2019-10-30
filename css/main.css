@@ -44,6 +44,9 @@
   width: 932.697px;
   background-image: linear-gradient(#5e5e5e 5%, #707070 50%, #808080 50%);
   border-radius: 5px;
+  border-style: solid;
+  border-color: #696969;
+  border-width: thin;
 }
 
 .nav-ul-li {
@@ -55,6 +58,10 @@
   width: 12.5%;
   height: 100%;
   flex: 1fr; 
+  font-family: 'Roboto', sans-serif;
+  color: #f0f0f0;
+  font-size: 0.8em;
+  font-weight: 100;
 }
 
 .header-text {
@@ -76,6 +83,10 @@
 }
 
 .header-span-text {
+  font-size: 1.5em;
+}
+
+#first-li-nav-bar {
   font-size: 1.5em;
 }
 

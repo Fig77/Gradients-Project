@@ -1,0 +1,20 @@
+/* General classes */
+
+.ul-default-nav {
+	list-style-type: none;
+}
+
+/* Header */
+
+.hero-header {
+	
+}
+
+.nav-bar {
+	display: flex;
+	height: 30px;
+	width: 932.697px;
+	background-color: black;
+	margin: auto;
+}
+

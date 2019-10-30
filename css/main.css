@@ -47,6 +47,7 @@
   border-style: solid;
   border-color: #696969;
   border-width: thin;
+  box-shadow: 0 0 1.5px #000;
 }
 
 .nav-ul-li {
@@ -62,6 +63,12 @@
   color: #f0f0f0;
   font-size: 0.8em;
   font-weight: 100;
+}
+
+.nav-ul-li:hover {
+  cursor: pointer;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.4);
 }
 
 .header-text {
@@ -102,7 +109,6 @@
   border-color: #696969;
   box-shadow: inset 0 0 2px #000000;
   background-color: rgba(255, 255, 255, 0);
-  
 }
 
 #search-box-nav {

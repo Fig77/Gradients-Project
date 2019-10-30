@@ -4,12 +4,17 @@
   list-style-type: none;
 }
 
+.flex-fr {
+  flex-basis: 1fr;
+}
+
 /* Header */
 
 .hero-header {
   width: 100vw;
   height: 538px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-image: url(../assets/img/hero_back.jpg);
@@ -20,8 +25,31 @@
 
 .nav-bar {
   display: flex;
-  height: 30px;
+  height: 36px;
   width: 932.697px;
-  background-color: #333;
-  margin: auto;
+  background-image: linear-gradient(#5e5e5e 5%, #707070 50%, #808080 50%);
+  border-radius: 5px;
 }
+
+.header-text {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 1.8%;
+}
+
+.header-text-h1 {
+  font-size: 4em;
+  font-weight: 100;
+  margin-top: 3%;
+}
+
+.header-p-1 {
+  font-size: 2em;
+  font-weight: 200;
+  text-align: center;
+}
+
+.header-span-text {
+  font-size: 1.5em;
+}
+

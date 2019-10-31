@@ -7,15 +7,15 @@
   <p align="center">
     Third Microverse Project - Positioning Elements
     <br />
-    <a href="https://github.com/Fig77/Facu---Juan-Positioning-and-Floating-Elements/tree/feature-developer"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Fig77/Gradients-Project/tree/feature-developer"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="http://kalavhan.com/3rdproject/index.html
+    <a href="https://raw.githack.com/Fig77/Gradients-Project/tree/feature-developer/assets/img
 ">View Demo</a>
     ·
-    <a href="https://github.com/Fig77/Facu---Juan-Positioning-and-Floating-Elements/issues">Report Bug</a>
+    <a href="https://github.com/Fig77/Gradients-Project/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Fig77/Facu---Juan-Positioning-and-Floating-Elements/issues">Request Feature</a>
+    <a href="https://github.com/Fig77/Gradients-Project/issues">Request Feature</a>
   </p>
 </p>
 
@@ -44,7 +44,7 @@ This is my fourth Microverse project, and first solo project.
 ### Assignment:
  
 
-   1. Go to this old version of [!apple.com](https://web.archive.org/web/20140301004610/http://www.apple.com/) and have a look around.
+   1. Go to this old version of ![apple.com](https://web.archive.org/web/20140301004610/http://www.apple.com/) and have a look around.
    2. Create a blank HTML document.
    3. Plan out how the elements on the page need to be grouped together.
    4. Lay out the empty semantic HTML elements for the major sections (form, sidebar, footer…) and make them  	 the proper size and alignment. It may be helpful to change their background colors while you’re      	 positioning them on the page. Don’t forget to use your browser’s developer tools (right click on the 	 page, click “inspect element”)!
@@ -87,7 +87,6 @@ Project Link: [Project repo](https://github.com/Fig77/Gradients-Project)
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Font Awesome](https://fontawesome.com)
-
 
 
 

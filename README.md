@@ -10,8 +10,7 @@
     <a href="https://github.com/Fig77/Gradients-Project/tree/feature-developer"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://raw.githack.com/Fig77/Gradients-Project/tree/feature-developer/assets/img
-">View Demo</a>
+    <a href="https://fig77.github.io/">View Demo</a>
     ·
     <a href="https://github.com/Fig77/Gradients-Project/issues">Report Bug</a>
     ·

@@ -168,6 +168,8 @@ main {
   background-image: url(../assets/img/promo_iphone_4.jpg);
 }
 
+/* Regarding main-div class name. Originally those elements inside main where divs. */
+
 /* general fixes */
 
 /* this rules are applied last */

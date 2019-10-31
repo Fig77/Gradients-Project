@@ -23,6 +23,10 @@
   flex-basis: 1fr;
 }
 
+.animation-transition {
+  transition-duration: 0.5s;
+}
+
 /* Header */
 
 .hero-header {
@@ -104,8 +108,8 @@
 }
 
 #search-bar-li:hover {
-  width: 22%;
-  transition-duration: 1s;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .search-box-style {
@@ -116,10 +120,6 @@
   border-color: #696969;
   box-shadow: inset 0 0 2px #000;
   background-color: rgba(255, 255, 255, 0);
-}
-
-.search-box-style:hover {
-  background: white;
 }
 
 #search-box-nav {
@@ -146,3 +146,4 @@
 .border-right-none {
   border-right-style: none;
 }
+

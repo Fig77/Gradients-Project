@@ -1,3 +1,9 @@
+/* raw elements */
+
+main {
+  display: block;
+}
+
 /* General classes */
 
 .ul-default-nav {
@@ -30,7 +36,7 @@
 /* Header */
 
 .hero-header {
-  width: 100vw;
+  width: 100%;
   height: 538px;
   display: flex;
   flex-direction: column;
@@ -137,6 +143,33 @@
 
 /* Main section */
 
+.main-div {
+  height: 28vh;
+  width: 24.9%;
+  background-color: aqua;
+  justify-content: center;
+  align-content: flex-start;
+  margin-right: 0.1em;
+  margin-top: -0.3em;
+  background-image: url(../assets/img/promo_iphone_1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.main-div:nth-of-type(2) {
+  background-image: url(../assets/img/promo_iphone_2.jpg);
+}
+
+.main-div:nth-of-type(3) {
+  background-image: url(../assets/img/promo_iphone_3.jpg);
+}
+
+.main-div:nth-of-type(4) {
+  background-image: url(../assets/img/promo_iphone_4.jpg);
+}
+
+/* Regarding main-div class name. Originally those elements inside main where divs. */
+
 /* general fixes */
 
 /* this rules are applied last */
@@ -149,3 +182,6 @@
   border-right-style: none;
 }
 
+.margin-right-none {
+  margin-right: 0;
+}

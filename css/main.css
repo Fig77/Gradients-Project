@@ -1,8 +1,24 @@
-/* The things that stickler wants me to do */
+/* Note to reviewer */
 
-.header-span-text a {
+/* Some name classes might be offputting, because the "main" was a header (since I took the whole thing as a hero-header and thought that would fit semantically speaking). Since my last reviewer wanted for the main (that is now the only "section" tag in the code) to have a background-img, I just changed the header tag for a main tag and the main for a section tag, since everything was done through classes nothing broke and I could move on. */
+
+/* Single properties classes */
+
+/* Colors */
+
+.color-white {
   color: #fff;
 }
+
+.color-08c {
+  color: #08c;
+}
+
+.color-69 {
+  color: #696969;
+}
+
+/* The things that stickler wants me to do */
 
 footer a:link {
   color: #08c;
@@ -87,10 +103,6 @@ footer a:visited {
   border-color: #696969;
   border-width: thin;
   box-shadow: 0 0 1.5px #000;
-}
-
-.nav-ul-li a:link {
-  color: #fff;
 }
 
 .nav-ul-li:hover {

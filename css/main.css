@@ -103,6 +103,10 @@
   font-size: 1.5em;
 }
 
+.header-span-links:link:hover {
+  text-decoration: underline;
+}
+
 #first-li-nav-bar {
   font-size: 1.5em;
 }

@@ -170,6 +170,25 @@ main {
 
 /* Regarding main-div class name. Originally those elements inside main where divs. */
 
+/* Footer section */
+
+.footer-style {
+  height: 10vh;
+  align-content: flex-start;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.footer-div-p-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.ul-footer-nav {
+  width: auto;
+}
+
 /* general fixes */
 
 /* this rules are applied last */

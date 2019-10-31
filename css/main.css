@@ -1,9 +1,5 @@
 /* raw elements */
 
-main {
-  display: block;
-}
-
 /* General classes */
 
 .ul-default-nav {
@@ -15,6 +11,21 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+}
+
+.default-li {
+  margin: 0;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: thin;
+  border-color: #696969;
+  width: 12.5%;
+  height: 100%;
+  flex: 1fr;
+  font-family: 'Roboto', sans-serif;
+  color: #f0f0f0;
+  font-size: 0.8em;
+  font-weight: 100;
 }
 
 .default-flex-container {
@@ -31,6 +42,10 @@ main {
 
 .animation-transition {
   transition-duration: 0.5s;
+}
+
+.link-color {
+  color: #08c;
 }
 
 /* Header */
@@ -58,21 +73,6 @@ main {
   border-color: #696969;
   border-width: thin;
   box-shadow: 0 0 1.5px #000;
-}
-
-.nav-ul-li {
-  margin: 0;
-  border-right-style: solid;
-  border-left-style: solid;
-  border-width: thin;
-  border-color: #696969;
-  width: 12.5%;
-  height: 100%;
-  flex: 1fr;
-  font-family: 'Roboto', sans-serif;
-  color: #f0f0f0;
-  font-size: 0.8em;
-  font-weight: 100;
 }
 
 .nav-ul-li:hover {
@@ -172,21 +172,49 @@ main {
 
 /* Footer section */
 
+footer a {
+  color: #08c;
+}
+
+footer a:visited {
+  color: #08c;
+}
+
 .footer-style {
   height: 10vh;
-  align-content: flex-start;
+  align-items: baseline;
+  padding-top: 3em;
   justify-content: space-around;
   flex-wrap: nowrap;
+  font-size: 0.7em;
+  padding-left: 12em;
+  padding-right: 12em;
 }
 
 .footer-div-p-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  height: auto;
+}
+
+.span-footer:nth-child(2) {
+  padding-top: 0.7em;
 }
 
 .ul-footer-nav {
   width: auto;
+  height: 0.8em;
+}
+
+.ul-li-footer {
+  width: auto;
+  border-left-style: none;
+  border-right-style: solid;
+  border-right-width: thin;
+  border-right-color: #000;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 /* general fixes */
@@ -199,6 +227,14 @@ main {
 
 .border-right-none {
   border-right-style: none;
+}
+
+.padding-left-none {
+  padding-left: 0;
+}
+
+.padding-right-none {
+  padding-right: 0;
 }
 
 .margin-right-none {

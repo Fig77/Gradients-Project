@@ -188,7 +188,7 @@
 
 /* Footer section */
 
-footer a {
+footer a:link {
   color: #08c;
 }
 

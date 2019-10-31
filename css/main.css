@@ -113,10 +113,6 @@
   background-color: rgba(255, 255, 255, 0);
 }
 
-.search-box-style:hover {
-  background: white;
-}
-
 #search-box-nav {
   background: transparent;
   width: 70%;

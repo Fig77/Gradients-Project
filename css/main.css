@@ -1,3 +1,13 @@
+/* The things that stickler wants me to do */
+
+footer a:link {
+  color: #08c;
+}
+
+footer a:visited {
+  color: #08c;
+}
+
 /* raw elements */
 
 /* General classes */
@@ -75,6 +85,10 @@
   box-shadow: 0 0 1.5px #000;
 }
 
+.header-span-text a {
+  color: #fff;
+}
+
 .nav-ul-li a:link {
   color: #fff;
 }
@@ -109,10 +123,6 @@
 
 .header-span-text {
   font-size: 1.5em;
-}
-
-.header-span-text a {
-  color: #fff;
 }
 
 .header-span-links:link:hover {
@@ -187,14 +197,6 @@
 /* Regarding main-div class name. Originally those elements inside main where divs. */
 
 /* Footer section */
-
-footer a:link {
-  color: #08c;
-}
-
-footer a:visited {
-  color: #08c;
-}
 
 .footer-style {
   height: 10vh;

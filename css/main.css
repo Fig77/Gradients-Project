@@ -75,7 +75,7 @@
   box-shadow: 0 0 1.5px #000;
 }
 
-.nav-ul-li a {
+.nav-ul-li a:link {
   color: #fff;
 }
 
@@ -97,7 +97,7 @@
   margin-top: 3%;
 }
 
-.header-text-h1 a {
+.header-text-h1 a:link {
   color: #fff;
 }
 

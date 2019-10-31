@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <script src="js/jquery.js"></script>
   <script src="js/all.js"></script>
+  <script src="js/main.js"></script>
 </head>
   
 <body>
@@ -44,9 +45,9 @@
           <a href="#">Support</a>
         </li>
         <li class="nav-ul-li border-right-none default-flex-container" id="search-bar-li">
-          <form class="default-flex-container search-box-style">
+          <form class="default-flex-container search-box-style" id="form-nav-header">
             <i class="fas fa-search" id="search-icon"></i>
-            <input name="search-box" id="search-box-nav" type="text">
+            <input name="search-box" id="search-box-nav" type="text" onmouseover="setTransition()" onmouseout="setDefault()">
           </form>
         </li>
       </ul>

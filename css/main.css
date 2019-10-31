@@ -103,11 +103,6 @@
   width: 15.5%;
 }
 
-#search-bar-li:hover {
-  width: 22%;
-  transition-duration: 1s;
-}
-
 .search-box-style {
   width: 80%;
   border-radius: 30px;

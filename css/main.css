@@ -1,5 +1,9 @@
 /* The things that stickler wants me to do */
 
+.header-span-text a {
+  color: #fff;
+}
+
 footer a:link {
   color: #08c;
 }
@@ -83,10 +87,6 @@ footer a:visited {
   border-color: #696969;
   border-width: thin;
   box-shadow: 0 0 1.5px #000;
-}
-
-.header-span-text a {
-  color: #fff;
 }
 
 .nav-ul-li a:link {

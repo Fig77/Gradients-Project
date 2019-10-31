@@ -23,6 +23,10 @@
   flex-basis: 1fr;
 }
 
+.animation-transition {
+  transition-duration: 0.5s;
+}
+
 /* Header */
 
 .hero-header {
@@ -103,6 +107,11 @@
   width: 15.5%;
 }
 
+#search-bar-li:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .search-box-style {
   width: 80%;
   border-radius: 30px;
@@ -137,3 +146,4 @@
 .border-right-none {
   border-right-style: none;
 }
+

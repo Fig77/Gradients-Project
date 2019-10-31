@@ -90,7 +90,6 @@ Project Link: [Project repo](https://github.com/Fig77/Gradients-Project)
 
 
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/badge/Contributors-1-brightgreen

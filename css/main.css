@@ -170,6 +170,21 @@ main {
 
 /* Regarding main-div class name. Originally those elements inside main where divs. */
 
+/* Footer section */
+
+.footer-style {
+  height: 10vh;
+  align-content: flex-start;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.footer-style:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* general fixes */
 
 /* this rules are applied last */

@@ -391,3 +391,7 @@ a:link {
   text-decoration: none;
   color: #f0f0f0;
 }
+
+a:visited {
+  color: #f0f0f0;
+}

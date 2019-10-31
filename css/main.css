@@ -179,10 +179,14 @@ main {
   flex-wrap: nowrap;
 }
 
-.footer-style:first-child {
+.footer-div-p-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+}
+
+.ul-footer-nav {
+  width: auto;
 }
 
 /* general fixes */

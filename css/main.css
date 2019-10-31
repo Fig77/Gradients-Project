@@ -1,0 +1,149 @@
+/* General classes */
+
+.ul-default-nav {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.default-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-fr {
+  flex-basis: 1fr;
+}
+
+.animation-transition {
+  transition-duration: 0.5s;
+}
+
+/* Header */
+
+.hero-header {
+  width: 100vw;
+  height: 538px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/img/hero_back.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center 101%;
+}
+
+.nav-bar {
+  display: flex;
+  height: 36px;
+  width: 932.697px;
+  background-image: linear-gradient(#5e5e5e 5%, #707070 50%, #808080 50%);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #696969;
+  border-width: thin;
+  box-shadow: 0 0 1.5px #000;
+}
+
+.nav-ul-li {
+  margin: 0;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: thin;
+  border-color: #696969;
+  width: 12.5%;
+  height: 100%;
+  flex: 1fr;
+  font-family: 'Roboto', sans-serif;
+  color: #f0f0f0;
+  font-size: 0.8em;
+  font-weight: 100;
+}
+
+.nav-ul-li:hover {
+  cursor: pointer;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header-text {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 1.8%;
+}
+
+.header-text-h1 {
+  font-size: 4em;
+  font-weight: 100;
+  margin-top: 3%;
+}
+
+.header-p-1 {
+  font-size: 2em;
+  font-weight: 200;
+  text-align: center;
+}
+
+.header-span-text {
+  font-size: 1.5em;
+}
+
+#first-li-nav-bar {
+  font-size: 1.5em;
+}
+
+/* Search bar of li in nav-bar header styling */
+
+#search-bar-li {
+  width: 15.5%;
+}
+
+#search-bar-li:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.search-box-style {
+  width: 80%;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #696969;
+  box-shadow: inset 0 0 2px #000;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#search-box-nav {
+  background: transparent;
+  width: 70%;
+  float: left;
+  border-style: none;
+}
+
+#search-icon {
+  padding-top: 4px;
+  font-size: 12px;
+  color: #fff;
+}
+
+/* general fixes */
+
+/* this rules are applied last */
+
+.border-left-none {
+  border-left-style: none;
+}
+
+.border-right-none {
+  border-right-style: none;
+}
+

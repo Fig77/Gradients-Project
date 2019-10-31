@@ -1,6 +1,6 @@
 /* Note to reviewer */
 
-/* Some name classes might be offputting, because the "main" was a header (since I took the whole thing as a hero-header and thought that would fit semantically speaking). Since my last reviewer wanted for the main (that is now the only "section" tag in the code) to have a background-img, I just changed the header tag for a main tag and the main for a section tag, since everything was done through classes nothing broke and I could move on. */
+/* Some name classes might be offputting, because the "main tag" was a header (since I took the whole thing as a hero-header and thought that would fit semantically speaking; hence, for me the main section was between the hero-header and the footer.) Since in my last review it was asked to me for the main tag (that is now the only "section" tag in the code) to have a background-img, I just changed the header tag for a main tag and the main for a section tag, since everything was done through classes nothing broke and I could move on. For more context please check this commit : b6b9dc0aed581eb6c472039e6dd558ff783102b2 */
 
 /* Single properties classes */
 
@@ -14,19 +14,27 @@
   color: #08c;
 }
 
+.color-08c a:link {
+  color: #08c;
+}
+
+.color-08c a:visited {
+  color: #08c;
+}
+
 .color-69 {
   color: #696969;
 }
 
+.border-color-69 {
+  border-color: #696969;
+}
+
+.fix-visited-span a:visited {
+  color: #08c;
+}
+
 /* The things that stickler wants me to do */
-
-footer a:link {
-  color: #08c;
-}
-
-footer a:visited {
-  color: #08c;
-}
 
 /* raw elements */
 
@@ -48,7 +56,6 @@ footer a:visited {
   border-right-style: solid;
   border-left-style: solid;
   border-width: thin;
-  border-color: #696969;
   width: 12.5%;
   height: 100%;
   flex: 1fr;
@@ -66,16 +73,8 @@ footer a:visited {
   flex-wrap: wrap;
 }
 
-.flex-fr {
-  flex-basis: 1fr;
-}
-
 .animation-transition {
   transition-duration: 0.5s;
-}
-
-.link-color {
-  color: #08c;
 }
 
 /* Header */
@@ -100,7 +99,6 @@ footer a:visited {
   background-image: linear-gradient(#5e5e5e 5%, #707070 50%, #808080 50%);
   border-radius: 5px;
   border-style: solid;
-  border-color: #696969;
   border-width: thin;
   box-shadow: 0 0 1.5px #000;
 }
@@ -112,7 +110,6 @@ footer a:visited {
 }
 
 .header-text {
-  color: #fff;
   margin-top: 0;
   margin-bottom: 1.8%;
 }
@@ -121,10 +118,6 @@ footer a:visited {
   font-size: 4em;
   font-weight: 100;
   margin-top: 3%;
-}
-
-.header-text-h1 a:link {
-  color: #fff;
 }
 
 .header-p-1 {
@@ -161,7 +154,6 @@ footer a:visited {
   border-radius: 30px;
   border-style: solid;
   border-width: thin;
-  border-color: #696969;
   box-shadow: inset 0 0 2px #000;
   background-color: rgba(255, 255, 255, 0);
 }
@@ -176,7 +168,6 @@ footer a:visited {
 #search-icon {
   padding-top: 4px;
   font-size: 12px;
-  color: #fff;
 }
 
 /* Main section */
@@ -219,7 +210,6 @@ footer a:visited {
   font-size: 0.7em;
   padding-left: 12em;
   padding-right: 12em;
-  color: #696969;
 }
 
 .footer-div-p-container {

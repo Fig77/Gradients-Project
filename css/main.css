@@ -75,6 +75,10 @@
   box-shadow: 0 0 1.5px #000;
 }
 
+.nav-ul-li a {
+  color: #fff;
+}
+
 .nav-ul-li:hover {
   cursor: pointer;
   background-size: cover;
@@ -93,6 +97,10 @@
   margin-top: 3%;
 }
 
+.header-text-h1 a {
+  color: #fff;
+}
+
 .header-p-1 {
   font-size: 2em;
   font-weight: 200;
@@ -101,6 +109,10 @@
 
 .header-span-text {
   font-size: 1.5em;
+}
+
+.header-span-text a {
+  color: #fff;
 }
 
 .header-span-links:link:hover {

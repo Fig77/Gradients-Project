@@ -2,6 +2,8 @@
 
 /* Some name classes might be offputting, because the "main tag" was a header (since I took the whole thing as a hero-header and thought that would fit semantically speaking; hence, for me the main section was between the hero-header and the footer.) Since in my last review it was asked to me for the main tag (that is now the only "section" tag in the code) to have a background-img, I just changed the header tag for a main tag and the main for a section tag, since everything was done through classes nothing broke and I could move on. For more context please check this commit : b6b9dc0aed581eb6c472039e6dd558ff783102b2 */
 
+/* On a side note, I read about the header tag, and I noticed that I had a wrong concept about it, since I thought it had the same hierarchy than a main tag, and It could only be used once. With that information, could make more sense I guess to use the main tag on that section, even thought I feel that the content has more of a "header" format than a "main content" format. In any case, that requirement is met :) */
+
 /* Single properties classes */
 
 /* Colors */
@@ -33,8 +35,6 @@
 .fix-visited-span a:visited {
   color: #08c;
 }
-
-/* The things that stickler wants me to do */
 
 /* raw elements */
 
@@ -84,7 +84,7 @@
   transition-duration: 0.5s;
 }
 
-/* Header */
+/* Header (new main tag) */
 
 .hero-header {
   width: 100%;
@@ -173,7 +173,7 @@
   font-size: 12px;
 }
 
-/* Main section */
+/* Section main */
 
 .main-div {
   height: 28vh;

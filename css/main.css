@@ -1,0 +1,263 @@
+/* Note to reviewer */
+
+/* Some name classes might be offputting, because the "main tag" was a header (since I took the whole thing as a hero-header and thought that would fit semantically speaking; hence, for me the main section was between the hero-header and the footer.) Since in my last review it was asked to me for the main tag (that is now the only "section" tag in the code) to have a background-img, I just changed the header tag for a main tag and the main for a section tag, since everything was done through classes nothing broke and I could move on. For more context please check this commit : b6b9dc0aed581eb6c472039e6dd558ff783102b2 */
+
+/* On a side note, I read about the header tag, and I noticed that I had a wrong concept about it, since I thought it had the same hierarchy than a main tag, and It could only be used once. With that information, could make more sense I guess to use the main tag on that section, even thought I feel that the content has more of a "header" format than a "main content" format. In any case, that requirement is met :) */
+
+/* Single properties classes */
+
+/* Colors */
+
+.color-white {
+  color: #fff;
+}
+
+.color-08c {
+  color: #08c;
+}
+
+.color-08c a:link {
+  color: #08c;
+}
+
+.color-08c a:visited {
+  color: #08c;
+}
+
+.color-69 {
+  color: #696969;
+}
+
+.border-color-69 {
+  border-color: #696969;
+}
+
+.fix-visited-span a:visited {
+  color: #08c;
+}
+
+/* raw elements */
+
+/* General classes */
+
+.ul-default-nav {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.default-li {
+  margin: 0;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: thin;
+  width: 12.5%;
+  height: 100%;
+  flex: 1fr;
+  font-family: 'Roboto', sans-serif;
+  color: #f0f0f0;
+  font-size: 0.8em;
+  font-weight: 100;
+}
+
+.default-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.default-flex-container-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation-transition {
+  transition-duration: 0.5s;
+}
+
+/* Header (new main tag) */
+
+.hero-header {
+  width: 100%;
+  height: 538px;
+  background-image: url(../assets/img/hero_back.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center 101%;
+}
+
+.nav-bar {
+  display: flex;
+  height: 36px;
+  width: 932.697px;
+  background-image: linear-gradient(#5e5e5e 5%, #707070 50%, #808080 50%);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  box-shadow: 0 0 1.5px #000;
+}
+
+.nav-ul-li:hover {
+  cursor: pointer;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header-text {
+  margin-top: 0;
+  margin-bottom: 1.8%;
+}
+
+.header-text-h1 {
+  font-size: 4em;
+  font-weight: 100;
+  margin-top: 3%;
+}
+
+.header-p-1 {
+  font-size: 2em;
+  font-weight: 200;
+  text-align: center;
+}
+
+.header-span-text {
+  font-size: 1.5em;
+}
+
+.header-span-links:link:hover {
+  text-decoration: underline;
+}
+
+#first-li-nav-bar {
+  font-size: 1.5em;
+}
+
+/* Search bar of li in nav-bar header styling */
+
+#search-bar-li {
+  width: 15.5%;
+}
+
+#search-bar-li:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.search-box-style {
+  width: 80%;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: thin;
+  box-shadow: inset 0 0 2px #000;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#search-box-nav {
+  background: transparent;
+  width: 70%;
+  float: left;
+  border-style: none;
+}
+
+#search-icon {
+  padding-top: 4px;
+  font-size: 12px;
+}
+
+/* Section main */
+
+.main-div {
+  height: 28vh;
+  width: 24.9%;
+  background-color: aqua;
+  justify-content: center;
+  align-content: flex-start;
+  margin-right: 0.1em;
+  margin-top: -0.3em;
+  background-image: url(../assets/img/promo_iphone_1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.main-div:nth-of-type(2) {
+  background-image: url(../assets/img/promo_iphone_2.jpg);
+}
+
+.main-div:nth-of-type(3) {
+  background-image: url(../assets/img/promo_iphone_3.jpg);
+}
+
+.main-div:nth-of-type(4) {
+  background-image: url(../assets/img/promo_iphone_4.jpg);
+}
+
+/* Regarding main-div class name. Originally those elements inside main where divs. */
+
+/* Footer section */
+
+.footer-style {
+  height: 10vh;
+  align-items: baseline;
+  padding-top: 3em;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  font-size: 0.7em;
+  padding-left: 12em;
+  padding-right: 12em;
+}
+
+.footer-div-p-container {
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: auto;
+}
+
+.span-footer:nth-child(2) {
+  padding-top: 0.7em;
+}
+
+.ul-footer-nav {
+  width: auto;
+  height: 0.8em;
+}
+
+.ul-li-footer {
+  width: auto;
+  border-left-style: none;
+  border-right-style: solid;
+  border-right-width: thin;
+  border-right-color: #000;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+/* this rules are applied last */
+
+.border-left-none {
+  border-left-style: none;
+}
+
+.border-right-none {
+  border-right-style: none;
+}
+
+.padding-left-none {
+  padding-left: 0;
+}
+
+.padding-right-none {
+  padding-right: 0;
+}
+
+.margin-right-none {
+  margin-right: 0;
+}

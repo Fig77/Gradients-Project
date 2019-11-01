@@ -73,6 +73,13 @@
   flex-wrap: wrap;
 }
 
+.default-flex-container-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .animation-transition {
   transition-duration: 0.5s;
 }
@@ -82,10 +89,6 @@
 .hero-header {
   width: 100%;
   height: 538px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-image: url(../assets/img/hero_back.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -213,9 +216,8 @@
 }
 
 .footer-div-p-container {
-  display: flex;
-  flex-direction: column;
   justify-content: flex-start;
+  align-items: flex-start;
   height: auto;
 }
 

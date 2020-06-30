@@ -34,7 +34,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is my fourth Microverse project, and first solo project.
+This is my fourth Microverse project and first solo project.
 
 ### Objective
  1. Getting familiar with ways of positioning elements with CSS using flexbox or float.
@@ -43,10 +43,10 @@ This is my fourth Microverse project, and first solo project.
 ### Assignment:
  
 
-   1. Go to this old version of ![apple.com](https://web.archive.org/web/20140301004610/http://www.apple.com/) and have a look around.
+   1. Go to this old version of![apple.com](https://web.archive.org/web/20140301004610/http://www.apple.com/) and have a look around.
    2. Create a blank HTML document.
    3. Plan out how the elements on the page need to be grouped together.
-   4. Lay out the empty semantic HTML elements for the major sections (form, sidebar, footer…) and make them  	 the proper size and alignment. It may be helpful to change their background colors while you’re      	 positioning them on the page. Don’t forget to use your browser’s developer tools (right click on the 	 page, click “inspect element”)!
+   4. Layout the empty semantic HTML elements for the major sections (form, sidebar, footer…) and make them the proper size and alignment. It may be helpful to change their background colors while you’re positioning them on the page. Don’t forget to use your browser’s developer tools (right-click on the page, click “inspect element”)!
    5. Set up the top navigation bar. How is that gradient achieved?
    6. Set up the main background image. You can grab that exact image from their webpage by finding the <section class="hero"> tag in your inspector and checking out its background image.
    7. Fill in and position the additional sections. Don’t worry about enclosing every paragraph of text in p tags.
@@ -57,7 +57,7 @@ This is my fourth Microverse project, and first solo project.
 
 
 ### Built With
-This project was built using raw html and css, and all support necessary for using font awesome.* 
+This project was built using raw HTML and CSS, and all support necessary for using font awesome.* 
 
 <!-- USAGE EXAMPLES -->
 ## Use
